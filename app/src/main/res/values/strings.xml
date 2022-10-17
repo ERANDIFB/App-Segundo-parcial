@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Junto</string>
+    <string name="usuarioLabel">Usuario</string>
+    <string name="Contraseña">Contraseña</string>
+    <string name="okLabel">Acceder</string>
+    <string name="olvideLabel">Olvide contrasena</string>
+    <string name="Registrar">Registrarme</string>
+    <string name="Nombre">Nombre</string>
+    <string name="Apellido">Apellido</string>
+    <string name="Email">Email</string>
+    <string name="Genero">Genero</string>
+    <string name="Edad">Edad</string>
+    <string name="Finalizar">Finalizar Registro</string>
+    <string name="Nacer">Fecha nacimiento</string>
+
+
+</resources>
