@@ -14,6 +14,7 @@ import java.io.File;
 import java.io.InputStreamReader;
 
 public class Login extends AppCompatActivity {
+    public final String LOG_TAG = this.getClass().getSimpleName();
 
     private Button buttonRegistro;
     private Button buttonAcceder;
@@ -74,6 +75,8 @@ public class Login extends AppCompatActivity {
                         if("Acceso autorizado ".equals(mensaje)){
                             Toast.makeText(Login.this, mensaje, Toast.LENGTH_SHORT).show();
                             Intent intent = new Intent(Login.this, Jungle1.class);
+                            startActivity(intent);
+                            intent.putExtra("archivo", x);
                             startActivity(intent);
                         }
 
