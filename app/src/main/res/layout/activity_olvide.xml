@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#D6F1FD"
+    tools:context="com.example.juntohtml.Olvide">
+
+    <Button
+        android:id="@+id/forget2"
+        android:layout_width="270dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="68dp"
+        android:layout_marginTop="32dp"
+        android:fontFamily="@font/water"
+        android:onClick="Volver"
+        android:text="@string/back"
+        android:textColor="#000000"
+        app:backgroundTint="@color/purple_500"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/loginid3"
+        app:strokeWidth="2dp" />
+
+    <Button
+        android:id="@+id/loginid3"
+        android:layout_width="270dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="68dp"
+        android:layout_marginTop="32dp"
+        android:fontFamily="@font/water"
+        android:onClick="RecuperarContraseña"
+        android:text="@string/recuperarpswd"
+        android:textColor="#000000"
+        app:backgroundTint="@color/purple_500"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextFPMail"
+        app:strokeWidth="2dp" />
+
+    <EditText
+        android:id="@+id/editTextFPMail"
+        android:layout_width="270dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="68dp"
+        android:layout_marginTop="24dp"
+        android:contextClickable="true"
+        android:ems="10"
+        android:hint="@string/correo"
+        android:inputType="text"
+        android:minHeight="48dp"
+        android:textColor="#000000"
+        android:textColorHint="#000000"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewISPassword2" />
+
+    <TextView
+        android:id="@+id/textViewISPassword2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="68dp"
+        android:layout_marginTop="24dp"
+        android:text="@string/correo"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextFPName" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/humble"
+        android:text="Olvide Contraseña"
+        android:textSize="34sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.78"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.142" />
+
+    <EditText
+        android:id="@+id/editTextFPName"
+        android:layout_width="270dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="68dp"
+        android:layout_marginTop="16dp"
+        android:ems="10"
+        android:hint="@string/usuario"
+        android:inputType="textPersonName"
+        android:minHeight="48dp"
+        android:textColor="#000000"
+        android:textColorHint="#000000"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewISuserName2" />
+
+    <TextView
+        android:id="@+id/textViewISuserName2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="76dp"
+        android:layout_marginTop="176dp"
+        android:text="@string/usuario"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

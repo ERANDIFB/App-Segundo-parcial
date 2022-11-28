@@ -1,0 +1,34 @@
+<resources>
+    <string name="app_name">PLISYA</string>
+
+    <string name="acceder">Acceder</string>
+    <string name="registrarme">Registrarme</string>
+    <string name="olvidec">Olvide Contraseña</string>
+    <string name="usuario">Usuario</string>
+    <string name="contraseña">Contraseña</string>
+    <string name="correo">Correo</string>
+    <string name="boleta">No. Boleta</string>
+    <string name="fechan">Fecha de nacimiento</string>
+    <string name="genero">Género</string>
+    <string name="edad">Edad</string>
+    <string name="artista">Artista Fav</string>
+    <string name="nombre">Nombre </string>
+    <string name="preferencia">Animal Fav</string>
+    <string name="bienvenido">¡Bienvenid@!</string>
+    <string name="recuperarpswd">Recuperar contraseña</string>
+
+    <string name="logout">Cerrar Sesión</string>
+    <string name="back">Volver</string>
+    <string name="menu_nuevo">Nuevo</string>
+    <string name="menu_copiar">Cerrar Sesión</string>
+    <string name="list_name">Cuenta: </string>
+    <string name="list_nameHint">Escribir el nombre</string>
+    <string name="list_pass">Contraseña:</string>
+    <string name="list_passHint">Escribe la contraseña</string>
+    <string name="list_image">Selecciona una imagen</string>
+    <string name="list_image1">Imagen 1</string>
+    <string name="list_image2">Imagen 2</string>
+    <string name="list_image3">Imagen 3</string>
+    <string name="list_image4">Imagen 4</string>
+    <string name="list_button">Enviar</string>
+</resources>

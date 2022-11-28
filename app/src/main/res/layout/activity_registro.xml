@@ -1,0 +1,268 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.juntohtml.Registro"
+    android:background="#D6F1FD"
+    android:orientation="vertical"
+    >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:text="Registro"
+        android:fontFamily="@font/humble"
+        android:textColor="#000000"
+        android:textSize="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="57dp"
+        android:layout_marginTop="5dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="119dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:text="@string/nombre"
+            android:textSize="20dp" />
+
+        <EditText
+            android:id="@+id/nombreId"
+            android:layout_width="259dp"
+            android:layout_height="45dp"
+            android:layout_marginLeft="3dp"
+            android:hint="Ingresa tu nombre"
+            android:textSize="20dp" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginTop="5dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="119dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:text="@string/usuario"
+            android:textSize="20dp" />
+
+        <EditText
+            android:id="@+id/usuarioId"
+            android:layout_width="259dp"
+            android:layout_height="45dp"
+            android:layout_marginLeft="3dp"
+            android:hint="Ingresa Usuario"
+            android:textSize="20dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="53dp"
+        android:layout_marginTop="5dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:text="@string/contraseña"
+            android:textSize="20dp" />
+
+        <EditText
+            android:id="@+id/contraseñaId"
+            android:layout_width="266dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="13dp"
+            android:hint="Ingresa Contraseña"
+            android:inputType="textPassword"
+            android:textSize="20dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="72dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:text="@string/correo"
+            android:textSize="20dp" />
+
+        <EditText
+            android:id="@+id/correoId"
+            android:layout_width="297dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:ems="10"
+            android:inputType="textEmailAddress"
+            android:minHeight="48dp" />
+
+    </LinearLayout>
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="59dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="85dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="35dp"
+            android:text="@string/genero"
+            android:textSize="20dp" />
+
+        <RadioButton
+            android:id="@+id/hombre"
+            android:layout_width="118dp"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Hombre"
+            android:textSize="20dp" />
+
+        <RadioButton
+            android:id="@+id/mujer"
+            android:layout_width="111dp"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Mujer"
+            android:textSize="20dp" />
+    </RadioGroup>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="59dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="65dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:text="@string/edad"
+            android:textSize="20dp" />
+
+        <EditText
+            android:id="@+id/edad"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="384dp"
+        android:layout_height="59dp"
+        android:layout_marginTop="5dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="119dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:text="@string/artista"
+            android:textSize="20dp" />
+
+        <EditText
+            android:id="@+id/artFav"
+            android:layout_width="300dp"
+            android:layout_height="48dp"
+            android:layout_marginLeft="3dp"
+            android:hint="Ingresa tu artista Favorito"
+            android:textSize="20dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="66dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="119dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:text="@string/fechan"
+            android:textSize="20dp" />
+
+        <EditText
+            android:id="@+id/nacimientoId"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="date" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="119dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:text="@string/boleta"
+            android:textSize="20dp" />
+
+        <EditText
+            android:id="@+id/boletaId"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="date" />
+    </LinearLayout>
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="59dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="85dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="35dp"
+            android:text="@string/preferencia"
+            android:textSize="20dp" />
+
+        <RadioButton
+            android:id="@+id/gato"
+            android:layout_width="118dp"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Gato"
+            android:textSize="20dp" />
+
+        <RadioButton
+            android:id="@+id/perro"
+            android:layout_width="111dp"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Perro"
+            android:textSize="20dp" />
+    </RadioGroup>
+
+
+    <Button
+        android:id="@+id/btnRegistrar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        app:backgroundTint="@color/purple_500"
+        android:onClick="Registrarse"
+        android:fontFamily="@font/water"
+        android:text="¡Registrarme!"
+        android:textColor="#455A64" />
+
+</LinearLayout>

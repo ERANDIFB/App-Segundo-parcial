@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.juntohtml.ListView">
+    <ImageView
+        android:id="@+id/imageViewLUser"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        app:srcCompat="@drawable/ic_launcher_background" />
+
+    <TextView
+        android:id="@+id/textViewId"
+        android:layout_width="260dp"
+        android:layout_height="50dp"
+        android:gravity="center"
+        android:textColor="#000000" />
+
+</LinearLayout>
